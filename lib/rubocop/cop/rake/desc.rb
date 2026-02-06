@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require_relative 'helper/on_task'
+require_relative 'helper/task_name'
+
 module RuboCop
   module Cop
     module Rake

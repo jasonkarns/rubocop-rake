@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require_relative 'helper/class_definition'
+require_relative 'helper/task_definition'
+
 module RuboCop
   module Cop
     module Rake
